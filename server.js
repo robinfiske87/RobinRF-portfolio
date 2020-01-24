@@ -9,7 +9,7 @@ if (process.env.NODE_ENV === 'production') {
 
   // Loads the static index.html file on all request not going to our defined apis
   app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+    res.sendFile(path.resolve(__dirname, 'index.html'));
   });
 }
 
