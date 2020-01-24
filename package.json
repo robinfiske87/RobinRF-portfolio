@@ -17,6 +17,9 @@
   "bugs": {
     "url": "https://github.com/robinfiske87/RobinRF-portfolio/issues"
   },
+  "engines": {
+    "node": "10.16.3"
+  },
   "homepage": "https://github.com/robinfiske87/RobinRF-portfolio#readme",
   "dependencies": {
     "express": "^4.17.1"
