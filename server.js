@@ -5,7 +5,7 @@ const app = express();
 // Serve static assets in production
 if (process.env.NODE_ENV === 'production') {
   // Set static folder(public folder)
-  app.use(express.static('client/build'));
+  app.use(express.static('build'));
 
   // Loads the static index.html file on all request not going to our defined apis
   app.get('*', (req, res) => {
